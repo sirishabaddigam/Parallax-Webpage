@@ -1,0 +1,114 @@
+#div1,#div2,#div3, #div4, #div5{
+                height: 600px;
+                background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510764242245-JIWZSYBY8CYHZBOEUGAM/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg?format=2500w);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+        }
+        #div2{
+              background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510765722553-76QEADJUAJRSEYMGLNSA/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg?format=2500w);
+        }
+        #div3{
+              background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510766494470-KZDDR11SFE43N4RHTCLR/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg?format=2500w);
+        }
+        #div4{
+              background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1511367750555-BQMOKM1VBYO8IKWMX44W/1040.JPG?format=2500w);
+        }
+        #div5{
+              background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510767064224-MG3QKU4EG3Y4TCIEHUZQ/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg?format=2500w);
+        }
+        /* .content{
+            text-align: left;
+        } */
+         #head{
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 500px;
+         }
+         #head>img{
+            margin-left: 50px;
+         }
+         #nav{
+            margin-right: 50px;
+            display: flex;
+            gap: 30px;
+         }
+         #nav a{
+            text-decoration: none;
+            color: black;
+         }
+         #nav a:hover{
+            color: rgb(104, 99, 99);
+         }
+         #div1,#div2,#div3, #div4, #div5{
+            padding-top: 80px;
+            padding-left: 80px;
+         }
+         #div1>b, #div2>b, #div3>b, #div4>b, #div5>b{
+            padding: 10px;
+            font-size: 50px;
+            background-color: rgba(255, 255, 255, 0.622);
+         }
+         #div1>p{
+            padding: 10px;
+            width: 700px;
+            background-color: rgba(255, 255, 255, 0.838);
+            line-height: 30px;
+         }
+         .content{
+            padding: 50px 200px;
+            text-align: justify;
+         }
+
+
+         #imgs{
+            padding: 100px 200px;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+         }
+         #imgs>div{
+            height: 200px;
+            width: 300px;
+         }
+
+         #img1,#img2,#img3,#img4,#img5,#img6,#img7{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1511367788614-DAADN7AN7S8X6H82DPGG/Sag+Harbor+Renovation?format=750w);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+         }
+         #img2{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1407013211938-643YRT2R19BT03NBSU9C/image-asset.jpeg?format=750w);
+         }
+         #img3{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1407013525648-VVQCWJQWJST5M8XF3CAW/DSC01938.JPG?format=750w);
+         }
+         #img4{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1407012876048-IJUGTQ33APYFRMVU8PTU/image-asset.jpeg?format=750w);
+         }
+         #img5{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1407013282024-T21TGSK2RLZ1TTO2N4AW/image-asset.jpeg?format=750w);
+         }
+         #img6{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1407013582523-3ZUE00L0XQ9OIDEVZJT6/image-asset.jpeg?format=750w);
+         }
+         #img7{
+            background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1407013444045-2XOD1RTPUNCY98LJGVW8/DSC01988+2.JPG?format=750w);
+         }
+
+         footer{
+            background-color: black;
+            height: 150px;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            font-size: small;
+            font-family: proxima-nova;
+         }
